@@ -1,17 +1,17 @@
 ---
 import Title from './atoms/Title.astro';
-import { getPortafolioData} from "../components/data/portfolioData.js"
+import { getPortfolioData} from "../components/data/portfolioData.js"
 import Card from './card-portfolio/CardPortfolio.astro';
 ---
 
 <section
-	id="portafolio"
+	id="portfolio"
 	class="flex flex-col w-full  justify-center items-center h-auto min-h-[100dvh]  "
 >
 	<div class="portfolio__container">
-		<Title contenido="Portafolio" />
+		<Title contenido="Portfolio" />
 		<div class="portfolio__elements">
-			{getPortafolioData.map((props) => <Card {...props} />)}
+			{getPortfolioData.map((props) => <Card {...props} />)}
 		</div>
 	</div>
 </section>

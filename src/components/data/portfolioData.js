@@ -1,6 +1,6 @@
 /**
  * @SofiDev Esto es JSDOC, si consideras que puede ser complicado solo borralo, es un comentario, no afectará en nada
- * @typedef PortafolioData
+ * @typedef PortfolioData
  * @property {string} imgSrc Url de la imagen
  * @property {string} title Titulo de la tarjeta
  * @property {string[]} skills Array con tus habilidades ej: ['React', 'CSS', 'JavaScript']
@@ -13,9 +13,9 @@
 
 /**
  * @SofiDev Esto es JSDOC, si consideras que puede ser complicado solo borralo, es un comentario, no afectará en nada
- * @type {PortafolioData[]}
+ * @type {PortfolioData[]}
  */
-export const portafolioData = [
+export const portfolioData = [
 	{
 		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
 		title: 'Restaurant',
@@ -91,10 +91,10 @@ const skillIcons = {
 };
 
 /**
- * @description Se mapea el portafolioData para que tenga los iconos de las habilidades
+ * @description Se mapea el portfolioData para que tenga los iconos de las habilidades
  * 	Puedes ver Array.map en https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
  */
-export const getPortafolioData = portafolioData.map((item) => {
+export const getPortfolioData = portfolioData.map((item) => {
 	return {
 		// Se coloca todo el contenido previo del item
 		...item,
