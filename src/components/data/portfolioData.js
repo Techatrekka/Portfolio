@@ -18,61 +18,51 @@
 export const portfolioData = [
 	{
 		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
-		title: 'Restaurant',
-		skills: ['React', 'StyledComponents'],
+		title: 'Clois',
+		skills: ['Flutter', 'JavaScript'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'Project’s focus is on providing a platform similar in concept to audible, focusing on audiobooks and native Irish Folklore Stories',
 		demoURL: '',
-		repoURL: '',
+		repoURL: 'https://github.com/Techatrekka/clos',
 		anim: 'fade-right',
 	},
 	{
 		imgSrc: 'https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/299377097/original/7eb7dcebe244fcf5ad75d92b0969fc116946bd57/create-professional-amd-responsive-wordpress-website.jpg',
-		title: 'E-commerce',
-		skills: ['JavaScript', 'Bootstrap'],
+		title: 'Portfolio',
+		skills: ['JavaScript', 'React'],
 		descripcion:
-			' Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'',
 		demoURL: '',
-		repoURL: '',
+		repoURL: 'https://github.com/Techatrekka/Portfolio',
 		anim: 'fade-up',
 		averageBrightness: 0.1,
 	},
 	{
 		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
-		title: 'Coffe Store',
-		skills: ['React', 'CSS'],
+		title: 'Space Bean',
+		skills: ['Python'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
-		anim: 'fade-left',
-	},
-	{
-		imgSrc: 'https://www.corse.mx/cdn/shop/files/tienda_lenceria-lenceria-hot_sale-ofertas-mexico-lenceria_seyx-encaje-corse_mx-corse_lenceria_1200_x_560_px_13.png?v=1712270274&width=1500',
-		title: 'Coffe Store',
-		skills: ['React', 'CSS'],
-		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
+			'Developed an application that could render an asteroid from an stl file and its subsequent light curve. The application allowed the user to manipulate the asteroid and the light source, showing in real time how the light curve was affected by this',
+		demoURL: 'https://2021.spaceappschallenge.org/challenges/statements/when-light-curves-throw-us-curve-balls/teams/space-bean-hunters/project',
+		repoURL: 'https://github.com/Techatrekka/SpaceBean',
 		anim: 'fade-left',
 	},
 	{
 		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
-		title: 'Coffe Store',
-		skills: ['React', 'CSS'],
+		title: 'mHealth Use in Healthcare Facilities: Raising Awareness in Data Protection, Privacy and Safety',
+		skills: [],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'',
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-left',
 	},
 	{
 		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
-		title: 'Restaurant',
-		skills: ['React', 'StyledComponents'],
+		title: 'Learning to play Atari using Deep Reinforcement Learning',
+		skills: [],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'Dissertation on Reinforcement Learning',
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-right',
@@ -88,17 +78,16 @@ const skillIcons = {
 	StyledComponents: 'skill-icons:styledcomponents',
 	Bootstrap: 'skill-icons:bootstrap',
 	Tailwind: 'skill-icons:tailwindcss-dark',
+	Java: 'skill-icons:java',
+	Python: 'skill-icons:python',
+	Flutter: 'skill-icons:flutter',
 };
 
-/**
- * @description Se mapea el portfolioData para que tenga los iconos de las habilidades
- * 	Puedes ver Array.map en https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
- */
 export const getPortfolioData = portfolioData.map((item) => {
 	return {
-		// Se coloca todo el contenido previo del item
+	// All previous content of the item is placed
 		...item,
-		// Se cambian las skills por los iconos correspondientes
+	// The skills are replaced with the corresponding icons
 		skills: item.skills.map((skill) => skillIcons[skill]),
 	};
 });
