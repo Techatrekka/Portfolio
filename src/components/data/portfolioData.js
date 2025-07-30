@@ -17,7 +17,7 @@
  */
 export const portfolioData = [
 	{
-		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
+		imgSrc: '',
 		title: 'Clois',
 		skills: ['Flutter', 'JavaScript'],
 		descripcion:
@@ -27,7 +27,7 @@ export const portfolioData = [
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: 'https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/299377097/original/7eb7dcebe244fcf5ad75d92b0969fc116946bd57/create-professional-amd-responsive-wordpress-website.jpg',
+		imgSrc: '',
 		title: 'Portfolio',
 		skills: ['JavaScript', 'React'],
 		descripcion:
@@ -38,7 +38,7 @@ export const portfolioData = [
 		averageBrightness: 0.1,
 	},
 	{
-		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
+		imgSrc: '',
 		title: 'Space Bean',
 		skills: ['Python'],
 		descripcion:
@@ -48,9 +48,19 @@ export const portfolioData = [
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
-		title: 'mHealth Use in Healthcare Facilities: Raising Awareness in Data Protection, Privacy and Safety',
+		imgSrc: 'https://i1.rgstatic.net/publication/358839296_mHealth_Use_in_Healthcare_Facilities_Raising_Awareness_in_Data_Protection_Privacy_and_Safety/links/646f3e5831a12e0460513f0f/smallpreview.png',
+		title: 'mHealth Use in Healthcare Facilities: ',
 		skills: [],
+		descripcion:
+			'Raising Awareness in Data Protection, Privacy and Safety',
+		demoURL: 'https://www.researchgate.net/publication/358839296_mHealth_Use_in_Healthcare_Facilities_Raising_Awareness_in_Data_Protection_Privacy_and_Safety',
+		repoURL: '',
+		anim: 'fade-left',
+	},
+	{
+		imgSrc: '',
+		title: '',
+		skills: ['dotnet','csharp','fsharp'],
 		descripcion:
 			'',
 		demoURL: '',
@@ -58,7 +68,7 @@ export const portfolioData = [
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
+		imgSrc: '',
 		title: 'Learning to play Atari using Deep Reinforcement Learning',
 		skills: [],
 		descripcion:
