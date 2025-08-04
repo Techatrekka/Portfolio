@@ -17,7 +17,7 @@
  */
 export const portfolioData = [
 	{
-		imgSrc: '',
+		imgSrc: 'https://github.com/Techatrekka/clos/blob/b2445ab3d78325f29c26eee0468a02e2e1048f43/images/clos_logo.png',
 		title: 'Clois',
 		skills: ['Flutter', 'JavaScript'],
 		descripcion:
@@ -38,7 +38,7 @@ export const portfolioData = [
 		averageBrightness: 0.1,
 	},
 	{
-		imgSrc: '',
+		imgSrc: 'https://github.com/Techatrekka/SpaceBean/blob/24133b5d0be1e507830f2b480b7f9174f4956db0/images/Face0.png',
 		title: 'Space Bean',
 		skills: ['Python'],
 		descripcion:
