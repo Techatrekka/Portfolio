@@ -17,7 +17,7 @@
  */
 export const portfolioData = [
 	{
-		imgSrc: 'https://github.com/Techatrekka/clos/blob/b2445ab3d78325f29c26eee0468a02e2e1048f43/images/clos_logo.png',
+		imgSrc: '/img/clos_logo.png',
 		title: 'Clois',
 		skills: ['Flutter', 'JavaScript'],
 		descripcion:
@@ -30,53 +30,51 @@ export const portfolioData = [
 		imgSrc: '',
 		title: 'Portfolio',
 		skills: ['JavaScript', 'React'],
-		descripcion:
-			'',
+		descripcion: '',
 		demoURL: '',
 		repoURL: 'https://github.com/Techatrekka/Portfolio',
 		anim: 'fade-up',
 		averageBrightness: 0.1,
 	},
 	{
-		imgSrc: 'https://github.com/Techatrekka/SpaceBean/blob/24133b5d0be1e507830f2b480b7f9174f4956db0/images/Face0.png',
+		imgSrc: '/img/SpaceBean.png',
 		title: 'Space Bean',
 		skills: ['Python'],
 		descripcion:
 			'Developed an application that could render an asteroid from an stl file and its subsequent light curve. The application allowed the user to manipulate the asteroid and the light source, showing in real time how the light curve was affected by this',
-		demoURL: 'https://2021.spaceappschallenge.org/challenges/statements/when-light-curves-throw-us-curve-balls/teams/space-bean-hunters/project',
+		demoURL:
+			'https://2021.spaceappschallenge.org/challenges/statements/when-light-curves-throw-us-curve-balls/teams/space-bean-hunters/project',
 		repoURL: 'https://github.com/Techatrekka/SpaceBean',
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: 'https://i1.rgstatic.net/publication/358839296_mHealth_Use_in_Healthcare_Facilities_Raising_Awareness_in_Data_Protection_Privacy_and_Safety/links/646f3e5831a12e0460513f0f/smallpreview.png',
+		imgSrc: '/img/paperPreview.png',
 		title: 'mHealth Use in Healthcare Facilities: ',
 		skills: [],
-		descripcion:
-			'Raising Awareness in Data Protection, Privacy and Safety',
-		demoURL: 'https://www.researchgate.net/publication/358839296_mHealth_Use_in_Healthcare_Facilities_Raising_Awareness_in_Data_Protection_Privacy_and_Safety',
+		descripcion: 'Raising Awareness in Data Protection, Privacy and Safety',
+		demoURL:
+			'https://www.researchgate.net/publication/358839296_mHealth_Use_in_Healthcare_Facilities_Raising_Awareness_in_Data_Protection_Privacy_and_Safety',
 		repoURL: '',
 		anim: 'fade-left',
 	},
 	{
 		imgSrc: '',
 		title: '',
-		skills: ['dotnet','csharp','fsharp'],
-		descripcion:
-			'',
+		skills: ['dotnet', 'csharp', 'fsharp'],
+		descripcion: '',
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: '',
+		imgSrc: '/img/ReinforcementLearning.png',
 		title: 'Learning to play Atari using Deep Reinforcement Learning',
-		skills: [],
-		descripcion:
-			'Dissertation on Reinforcement Learning',
-		demoURL: '',
+		skills: ['Latex'],
+		descripcion: 'Dissertation on Reinforcement Learning',
+		demoURL: 'https://www.overleaf.com/read/gjkmwzhtwswv#3726e5',
 		repoURL: '',
 		anim: 'fade-right',
-	}
+	},
 ];
 
 const skillIcons = {
@@ -88,16 +86,18 @@ const skillIcons = {
 	StyledComponents: 'skill-icons:styledcomponents',
 	Bootstrap: 'skill-icons:bootstrap',
 	Tailwind: 'skill-icons:tailwindcss-dark',
-	Java: 'skill-icons:java',
-	Python: 'skill-icons:python',
-	Flutter: 'skill-icons:flutter',
+	Java: 'skill-icons:java-light',
+	Python: 'skill-icons:python-light',
+	Flutter: 'skill-icons:flutter-light',
+	Latex: 'skill-icons:latex-light',
+	aJava: 'skill-icons:java-light',
 };
 
 export const getPortfolioData = portfolioData.map((item) => {
 	return {
-	// All previous content of the item is placed
+		// All previous content of the item is placed
 		...item,
-	// The skills are replaced with the corresponding icons
+		// The skills are replaced with the corresponding icons
 		skills: item.skills.map((skill) => skillIcons[skill]),
 	};
 });
