@@ -48,7 +48,7 @@ export const portfolioData = [
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: '/img/paperPreview.png',
+		imgSrc: 'public/img/paperPreview.png',
 		title: 'mHealth Use in Healthcare Facilities: ',
 		skills: [],
 		descripcion: 'Raising Awareness in Data Protection, Privacy and Safety',
