@@ -6,8 +6,8 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://techatrekka.github.io',
-	base: '/Portfolio',
+	site: 'https://techatrekka.github.io/Portfolio/',
+	base: '/',
 	devToolbar: {
 		enabled: false,
 	},
