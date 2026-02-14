@@ -17,7 +17,7 @@
  */
 export const portfolioData = [
 	{
-		imgSrc: '/img/clos_logo.png',
+		imgSrc: '/public/img/clos_logo.png',
 		title: 'Clois',
 		skills: ['Flutter', 'JavaScript'],
 		descripcion:
@@ -37,7 +37,7 @@ export const portfolioData = [
 		averageBrightness: 0.1,
 	},
 	{
-		imgSrc: '/img/SpaceBean.png',
+		imgSrc: '/public/img/SpaceBean.png',
 		title: 'Space Bean',
 		skills: ['Python'],
 		descripcion:
@@ -48,7 +48,7 @@ export const portfolioData = [
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: 'public/img/paperPreview.png',
+		imgSrc: '/public/img/paperPreview.png',
 		title: 'mHealth Use in Healthcare Facilities: ',
 		skills: [],
 		descripcion: 'Raising Awareness in Data Protection, Privacy and Safety',
@@ -67,7 +67,7 @@ export const portfolioData = [
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: '/img/ReinforcementLearning.png',
+		imgSrc: '/public/img/ReinforcementLearning.png',
 		title: 'Learning to play Atari using Deep Reinforcement Learning',
 		skills: ['Latex'],
 		descripcion: 'Dissertation on Reinforcement Learning',
