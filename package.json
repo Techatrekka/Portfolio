@@ -19,7 +19,8 @@
     "react-dom": "^18.2.0",
     "reactjs": "^1.0.0",
     "tailwindcss": "^3.4.3",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "yarn": "^1.22.22"
   },
   "keywords": [
     "astro",
