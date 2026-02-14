@@ -27,11 +27,19 @@ export const portfolioData = [
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: '',
+		imgSrc: '/Portfolio/img/PortfolioImage.png',
 		title: 'Portfolio',
-		skills: ['JavaScript', 'React'],
-		descripcion: '',
-		demoURL: '',
+		skills: [
+			'JavaScript',
+			'React',
+			'Astro',
+			'CSS',
+			'Bootstrap',
+			'Tailwind',
+		],
+		descripcion:
+			'Portfolio website built with Astro, React and Tailwind, showcasing my projects and skills',
+		demoURL: 'https://techatrekka.github.io/Portfolio/',
 		repoURL: 'https://github.com/Techatrekka/Portfolio',
 		anim: 'fade-up',
 		averageBrightness: 0.1,
@@ -51,17 +59,20 @@ export const portfolioData = [
 		imgSrc: '/Portfolio/img/paperPreview.png',
 		title: 'mHealth Use in Healthcare Facilities: ',
 		skills: [],
-		descripcion: 'Raising Awareness in Data Protection, Privacy and Safety',
+		descripcion:
+			'Raising Awareness in Data Protection, Privacy and Safety, by analyzing the attitudes of healthcare professionals towards mHealth and the risks they perceive from using it',
 		demoURL:
 			'https://www.researchgate.net/publication/358839296_mHealth_Use_in_Healthcare_Facilities_Raising_Awareness_in_Data_Protection_Privacy_and_Safety',
-		repoURL: '',
+		repoURL:
+			'https://www.researchgate.net/publication/358839296_mHealth_Use_in_Healthcare_Facilities_Raising_Awareness_in_Data_Protection_Privacy_and_Safety',
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: '',
-		title: '',
-		skills: ['dotnet', 'csharp', 'fsharp'],
-		descripcion: '',
+		imgSrc: '/Portfolio/img/Whack-a-Mole.png',
+		title: 'VR Whack-a-Mole',
+		skills: ['Dotnet', 'CSharp', 'Godot'],
+		descripcion:
+			'A VR game developed in Godot using C# and Dotnet, where the player has to hit moles that pop up from holes',
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-left',
@@ -70,7 +81,8 @@ export const portfolioData = [
 		imgSrc: '/Portfolio/img/ReinforcementLearning.png',
 		title: 'Learning to play Atari using Deep Reinforcement Learning',
 		skills: ['Latex'],
-		descripcion: 'Dissertation on Reinforcement Learning',
+		descripcion:
+			'Dissertation on Reinforcement Learning, going through my process of developing a double DQN agent to play Atari games, and the results I got from it',
 		demoURL: 'https://www.overleaf.com/read/gjkmwzhtwswv#3726e5',
 		repoURL: '',
 		anim: 'fade-right',
@@ -90,7 +102,10 @@ const skillIcons = {
 	Python: 'skill-icons:python-light',
 	Flutter: 'skill-icons:flutter-light',
 	Latex: 'skill-icons:latex-light',
-	aJava: 'skill-icons:java-light',
+	FSharp: 'devicon:fsharp',
+	CSharp: 'devicon:csharp',
+	Dotnet: 'skill-icons:dotnet',
+	Godot: 'skill-icons:godot-dark',
 };
 
 export const getPortfolioData = portfolioData.map((item) => {
